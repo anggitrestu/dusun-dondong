@@ -2,7 +2,6 @@ import { Flowbite, Spinner } from "flowbite-react";
 import { AppProps } from "next/app";
 import { FC, Suspense } from "react";
 import "../styles/globals.css";
-import { flowbiteTheme as theme } from "../theme";
 
 const App: FC<AppProps> = function ({ Component, pageProps }): JSX.Element {
   return (
@@ -13,7 +12,7 @@ const App: FC<AppProps> = function ({ Component, pageProps }): JSX.Element {
         </div>
       }
     >
-      <Flowbite theme={{ theme }}>
+      <Flowbite>
         <Component {...pageProps} />
       </Flowbite>
     </Suspense>

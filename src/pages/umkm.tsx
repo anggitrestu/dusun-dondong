@@ -1,11 +1,11 @@
-import { Feature, Footer, Hero, Navbar } from "../components";
+import { Footer, Navbar } from "../components";
+import { Umkm } from "../components/umkm";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Feature />
+      <Umkm />
       <Footer />
     </div>
   );
