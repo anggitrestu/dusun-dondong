@@ -1,20 +1,20 @@
 export const Infografis = () => {
   const data = [
     {
-      title: "Jumlah KK",
-      desc: "188",
+      title: 'Jumlah KK',
+      desc: '188',
     },
     {
-      title: "Jumlah Penduduk",
-      desc: "1.000 Jiwa",
+      title: 'Jumlah Penduduk',
+      desc: '1.000 Jiwa',
     },
     {
-      title: "Jumlah Laki-laki",
-      desc: "500 Jiwa",
+      title: 'Jumlah Laki-laki',
+      desc: '500 Jiwa',
     },
     {
-      title: "Jumlah Perempuan",
-      desc: "500 Jiwa",
+      title: 'Jumlah Perempuan',
+      desc: '500 Jiwa',
     },
   ];
 

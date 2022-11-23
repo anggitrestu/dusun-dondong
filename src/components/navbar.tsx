@@ -9,7 +9,6 @@ export const Navbar = () => {
       title: 'Beranda',
       url: '/',
     },
-    // Pemerintah, Infografis, UMKM, Fasilitas, Galeri, KKN
     {
       title: 'Pemerintah',
       url: '/pemerintah',
@@ -17,6 +16,10 @@ export const Navbar = () => {
     {
       title: 'Infografis',
       url: '/infografis',
+    },
+    {
+      title: 'Demografis',
+      url: '/demografis',
     },
     {
       title: 'UMKM',
