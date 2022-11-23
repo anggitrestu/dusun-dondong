@@ -2,13 +2,6 @@ export const DemografisComponents = () => {
   return (
     <>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xl font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              LETAK DAN LUAS WILAYAH
-            </p>
-          </div>
-        </div>
         <div className="px-4 py-3 mx-auto my-4 sm:max-w-xl md:max-w-full lg:max-w-screen-md md:px-24 lg:px-8 lg:py-4 bg-white border-l-4 shadow-sm border-deep-purple-accent-400">
           <div className="flex flex-col items-start max-w-screen-sm md:flex-row sm:mx-auto">
             <a href="/" className="mb-4 mr-8">
@@ -38,14 +31,141 @@ export const DemografisComponents = () => {
                 merupakan wilayah bagian selatan Provinsi D.I Yogyakarta
                 berdasarkan keadaan topografi. Kalurahan Kanigoro memiliki kode
                 pos 55870. laudantium, totam rem aperiam, eaque ipsa quae.
-                <br />
-                <br />
-                Padukuhan Dondong berbatasan langsung dengan:
-                <li>Sebelah Utara dengan Padukuhan Cekel/Temanggung</li>
-                <li>Sebelah Timur dengan Desa Ngloro</li>
-                <li>Sebelah Barat dengan Desa Giri Sekar</li>
-                <li>Sebelah Selatan dengan Desa Krambil Sawit</li>
               </p>
+
+              <div className="flex border border-gray-200 rounded-lg overflow-hidden mt-4">
+                <div className="w-24 bg-deep-purple-600 flex justify-center items-center">
+                  <svg
+                    className="w-10 h-10 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </div>
+
+                <div className="py-4 px-6">
+                  <h6 className="text-lg sm:text-xl font-medium text-gray-900 mb-1">
+                    Batas Utara
+                  </h6>
+                  <p className="text-xl sm:text-2xl font-bold text-gray-900">
+                    Padukuhan Cekel/Temanggung
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex border border-gray-200 rounded-lg overflow-hidden mt-4">
+                <div className="w-24 bg-deep-purple-600 flex justify-center items-center">
+                  <svg
+                    className="w-10 h-10 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </div>
+
+                <div className="py-4 px-6">
+                  <h6 className="text-lg sm:text-xl font-medium text-gray-900 mb-1">
+                    Batas Timur
+                  </h6>
+                  <p className="text-xl sm:text-2xl font-bold text-gray-900">
+                    Desa Ngloro
+                  </p>
+                </div>
+              </div>
+              <div className="flex border border-gray-200 rounded-lg overflow-hidden mt-4">
+                <div className="w-24 bg-deep-purple-600 flex justify-center items-center">
+                  <svg
+                    className="w-10 h-10 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </div>
+
+                <div className="py-4 px-6">
+                  <h6 className="text-lg sm:text-xl font-medium text-gray-900 mb-1">
+                    Batas Barat
+                  </h6>
+                  <p className="text-xl sm:text-2xl font-bold text-gray-900">
+                    Desa Giri Sekar
+                  </p>
+                </div>
+              </div>
+              <div className="flex border border-gray-200 rounded-lg overflow-hidden mt-4">
+                <div className="w-24 bg-deep-purple-600 flex justify-center items-center">
+                  <svg
+                    className="w-10 h-10 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </div>
+
+                <div className="py-4 px-6">
+                  <h6 className="text-lg sm:text-xl font-medium text-gray-900 mb-1">
+                    Batas Selatan
+                  </h6>
+                  <p className="text-xl sm:text-2xl font-bold text-gray-900">
+                    Desa Krambil Sawit
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -78,6 +198,39 @@ export const DemografisComponents = () => {
                 di selatan Provinsi DI Yogyakarta, memiliki luas 90Ha yang
                 terdiri dari pemukiman warga, lahan pertanian, dan perkebunan.
               </p>
+              <div className="flex border border-gray-200 rounded-lg overflow-hidden mt-4">
+                <div className="w-24 bg-deep-purple-600 flex justify-center items-center">
+                  <svg
+                    className="w-10 h-10 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </div>
+
+                <div className="py-4 px-6">
+                  <h6 className="text-lg sm:text-xl font-medium text-gray-900 mb-1">
+                    Luas Wilayah
+                  </h6>
+                  <p className="text-xl sm:text-2xl font-bold text-gray-900">
+                    177,3290 m<sup>2</sup>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
